@@ -1,0 +1,63 @@
+*{
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.team {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+    
+}
+
+.team img{
+    border-radius: 60%;
+    margin-left: 22px;
+    
+}
+.team h2{
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+}
+.profile{
+    position: relative;
+    top: 80px;
+    margin: 120px;
+    
+}
+.icons {
+    color: white;
+    text-align: center;  
+}
+.icons i{
+    background-color:rgba(128, 128, 128, 0.438);
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    border-radius: 25%;
+    
+}
+#insta:hover {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+#fb:hover{
+    background-color: #315092;
+    ba: gray;
+}
+#ld:hover{
+    background-color: #0072b1;
+}
+#git:hover{
+    background-color: white;
+    color: black;
+}
